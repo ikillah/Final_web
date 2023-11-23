@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Website</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .courses {
+            margin-top: 1rem;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>ElHistory</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="facts.html">Facts</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+
+        </div>
+    </nav>
+
+    <section class="courses">
+        <h2>Interesting Facts</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img class="fact_img" src="./images/president.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>The Era of President Nazarbayev:</h4>
+                    <p>Nursultan Nazarbayev, the first President of Kazakhstan, led the country from its independence in 1991 until 2019. During his tenure, Kazakhstan transitioned to a market economy, and society underwent modernization.</p>
+                    <a href="facts.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img class="fact_img" src="./images/port.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>Historical homeland:</h4>
+                    <p>Kazakhstan is the birthplace of apples and tulips. The name of the city "Almaty" translates as "father of apples".</p>
+                    <a href="facts.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img class="fact_img" src="./images/koktobe.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>Interesting buildings of Kazakhstan:</h4>
+                    <p>The tallest TV tower in the world — "Kok-Tobe" — is located in Kazakhstan. This is one of the most earthquake-resistant structures.</p>
+                    <a href="facts.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img class="fact_img" src="./images/cosmos.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>The first Kazakh in the space:</h4>
+                    <p>The first Kazakhstani in space was Toktar Aubakirovich Aubakirov. He made his flight on September 26, 1991 on the Soyuz TM-13 spacecraft. Toktar Aubakirov was a member of the Soviet-Kazakh space expedition and became the first representative of Kazakhstan to go into space.</p>
+                    <a href="facts.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img class="fact_img" src="./images/anyzdar.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>Fact about the anthem of Kazakhstan:</h4>
+                    <p>The anthem of the Republic of Kazakhstan was adopted as the official anthem on January 7, 2006. The music for the anthem was written by composer Shamshi Kaldayakov, and the text was written by Zhumeken Nazhimedenov.</p>
+                    <a href="facts.html" class="btn btn-primary">Learn More</a>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-sm btn-outline-secondary" id="play-sound-anthem">Play / Stop</button>
+                </div>
+                
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img class="fact_img" src="./images/khandar.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>The founders of the Kazakh Khanate:</h4>
+                    <p>Sultans Kerey and Janibek were direct descendants of Genghis Khan, so both had the right to occupy the khan's throne in the khanate they created. The khan's throne traditionally passed to the senior applicant, so Khan Kerey became the first khan of the Kazakh Khanate.</p>
+                    <a href="facts.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+<footer class="footer">
+    <div class="container footer_container">
+        <div class="footer_1">
+            <a href="index.html" class="footer_logo"><h4>ElHistory</h4></a>
+            <p>
+                "Welcome to the ElHistory platform – your companion on a journey through Kazakh history! We provide exciting and educational courses specially designed to make studying the history of Kazakhstan easy, convenient and exciting."   
+            </p>
+        </div>
+
+        <div class="footer_2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="facts.html">Facts</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+7 702 576 0510</p>
+                <p>elhistory@gmail.com</p>
+            </div>
+
+            <ul class="footer_socials">
+            <li>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer_copyright">
+        <small>Copyright &copy; ElHistory</small>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    },
+    breakpoints: {
+        600: {
+            slidesPerView: 2
+        }
+    }
+    });
+</script>
+</body>
+</html>
